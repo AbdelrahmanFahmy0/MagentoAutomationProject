@@ -24,6 +24,12 @@
 [Allure-logo]: https://img.shields.io/badge/Allure-1C1C1C?style=for-the-badge&logo=allure&logoColor=brightgreen
 [Allure-url]: https://docs.qameta.io/allure/
 
+
+## 🌐 Demo Website Used
+[Magento](https://magento.softwaretestingboard.com/)
+
+<img title="Magento" src="https://jamersan.com/wp-content/uploads/2022/04/Magento-logo2-1-scaled.jpg" style="width: 225px; height: 100px;">
+
 ## 🛠️ Tools & Technologies  
 
 - **Selenium:** Browser automation for web application testing.  
@@ -34,3 +40,14 @@
 - **Faker:** Generate fake data for testing purposes.
 - **JSON:** Data interchange format for API testing and configuration.
 - **GitHub Actions:** CI/CD integration for automated testing and deployment.
+
+
+## 🧩 Project Design:
+* Page Object Model (POM) design pattern.
+* **Fluent design approach** (method chaining) for better test cases readability.
+* **Data-Driven Approach:** Implement a data-driven approach using properties and JSON files to handle test data in different scenarios.
+* **Listeners:** Apply TestNG listeners to capture and handle events during test execution.
+* **Allure Reports:** Use Allure for generating detailed and user-friendly test reports.
+* **Logging:** Use Log4j and SLF4J for comprehensive logging, aiding in debugging and analysis.
+* **TestNG XML:** Create an XML file to run and configure test cases, allowing for test suite setup and parameterization.
+
