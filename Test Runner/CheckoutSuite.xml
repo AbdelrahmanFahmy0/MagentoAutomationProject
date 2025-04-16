@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CheckoutSuite">
+    <test name="CheckoutTest">
+        <classes>
+            <class name="Tests.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>

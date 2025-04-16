@@ -1,0 +1,35 @@
+{
+  "user": {
+    "firstname": "Abdelrahman",
+    "lastname": "fahmy",
+    "password": "Admin@123"
+  },
+  "inValidaData": {
+    "email": "Johnn121@gmail.com",
+    "invalidEmailWithout@": "Johnn121gmail.com",
+    "invalidEmailWithoutDomain": "Johnn121@gmail",
+    "nameWithSpecialChars": "Abdelrahman@",
+    "password": "securePass123",
+    "invalidPasswordFormat": "adelrahman11",
+    "weakPassword": "aaa",
+    "mediumPassword": "admin@aA"
+  },
+  "passwordLevels": [
+    "Weak",
+    "Medium",
+    "Strong"
+  ],
+  "messages": {
+    "successRegisterMessage": "Thank you for registering with Main Website Store.",
+    "requiredFieldMessage": "This is a required field.",
+    "existingEmailMessage": "There is already an account with this email address.",
+    "invalidEmailMessage": "Please enter a valid email address (Ex: johndoe@domain.com).",
+    "invalidFirstNameMessage": "First Name is not valid!",
+    "invalidLastNameMessage": "Last Name is not valid!",
+    "invalidPasswordLengthMessage": "Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored.",
+    "invalidPasswordFormatMessage": "Minimum of different classes of characters in password is 3. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.",
+    "differentPasswordMessage": "Please enter the same value again.",
+    "invalidLoginMessage": "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",
+    "logoutMessage": "You are signed out"
+  }
+}

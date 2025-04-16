@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+    <test name="RegressionTest">
+        <classes>
+            <class name="Tests.RegisterTest"/>
+            <class name="Tests.LoginTest"/>
+            <class name="Tests.SearchTest"/>
+            <class name="Tests.FilterTest"/>
+            <class name="Tests.SortTest"/>
+            <class name="Tests.WishListTest"/>
+            <class name="Tests.CartTest"/>
+            <class name="Tests.CheckoutTest"/>
+            <class name="Tests.LogoutTest"/>
+        </classes>
+    </test>
+</suite>

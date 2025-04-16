@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SortSuite">
+    <test name="SortTest">
+        <classes>
+            <class name="Tests.SortTest"/>
+        </classes>
+    </test>
+</suite>

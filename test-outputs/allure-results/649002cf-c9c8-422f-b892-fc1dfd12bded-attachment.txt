@@ -1,0 +1,267 @@
+[DEBUG] - [16-04-2025 15:39:38] [main] [org.testng.TestNG] - suiteXmlPath: "F:\Projects\MagentoAutomationProject\Test Runner\E2ESuite.xml"
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['user']['firstname']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['user']['lastname']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['user']['password']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['user']['password']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['category']['mainCategory']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['category']['subCategory']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['category']['targetCategory']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['size']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['products'][0]['name']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['products'][0]['price']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['products'][0]['size']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['products'][0]['color']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['products'][0]['quantity']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['user']['country']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['shippingMethod']['price']
+[DEBUG] - [16-04-2025 15:39:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['shippingMethod']['method']
+[INFO] - [16-04-2025 15:39:39] [main] [Listeners.TestNGListeners] - Test execution started
+[INFO] - [16-04-2025 15:39:39] [main] [Utils.FileUtils] - Directory already exists: test-outputs\Logs
+[INFO] - [16-04-2025 15:39:39] [main] [Utils.FileUtils] - Directory created: test-outputs\Screenshots
+[INFO] - [16-04-2025 15:39:39] [main] [Utils.FileUtils] - Directory already exists: test-outputs\allure-results
+[INFO] - [16-04-2025 15:39:39] [main] [Utils.FileUtils] - File copied from src\test\resources\environment.properties to test-outputs\allure-results\environment.properties
+[INFO] - [16-04-2025 15:39:39] [main] [Utils.PropertiesUtils] - Loading Properties File Data
+[INFO] - [16-04-2025 15:39:42] [main] [Drivers.DriverManager] - Driver created on: chrome
+[INFO] - [16-04-2025 15:39:46] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //div[contains(@class,'panel')]//li[3]/a
+[INFO] - [16-04-2025 15:39:46] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[contains(@class,'panel')]//li[3]/a
+[INFO] - [16-04-2025 15:39:46] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[contains(@class,'panel')]//li[3]/a
+[INFO] - [16-04-2025 15:39:46] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[contains(@class,'panel')]//li[3]/a
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[contains(@class,'panel')]//li[3]/a
+[INFO] - [16-04-2025 15:39:48] [main] [Pages.HomePage] - Navigation to register page
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.BrowserActions] - Current url: https://magento.softwaretestingboard.com/customer/account/create/
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be visible: By.id: firstname
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be present: By.id: firstname
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Scrolling] - Scrolling to element: By.id: firstname
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.ElementActions] - Data entered: Abdelrahman in the field: By.id: firstname
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be visible: By.id: lastname
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be present: By.id: lastname
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Scrolling] - Scrolling to element: By.id: lastname
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.ElementActions] - Data entered: fahmy in the field: By.id: lastname
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be visible: By.id: email_address
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be present: By.id: email_address
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Scrolling] - Scrolling to element: By.id: email_address
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.ElementActions] - Data entered: Abdelrahman-2025-04-16-15-39-39@gmail.com in the field: By.id: email_address
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be visible: By.id: password
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be present: By.id: password
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Scrolling] - Scrolling to element: By.id: password
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.ElementActions] - Data entered: Admin@123 in the field: By.id: password
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be visible: By.id: password-confirmation
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be present: By.id: password-confirmation
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Scrolling] - Scrolling to element: By.id: password-confirmation
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.ElementActions] - Data entered: Admin@123 in the field: By.id: password-confirmation
+[DEBUG] - [16-04-2025 15:39:48] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['passwordLevels'][2]
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be visible: By.id: password-strength-meter-label
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be present: By.id: password-strength-meter-label
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Scrolling] - Scrolling to element: By.id: password-strength-meter-label
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.ElementActions] - Getting text from the element: By.id: password-strength-meter-label Text is Strong
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //button[@title='Create an Account']
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //button[@title='Create an Account']
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //button[@title='Create an Account']
+[INFO] - [16-04-2025 15:39:48] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //button[@title='Create an Account']
+[INFO] - [16-04-2025 15:39:52] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //button[@title='Create an Account']
+[INFO] - [16-04-2025 15:39:52] [main] [Utils.BrowserActions] - Current url: https://magento.softwaretestingboard.com/customer/account/
+[INFO] - [16-04-2025 15:39:52] [main] [Utils.Waits] - Waiting for the element By.xpath: //div[contains(@class,'panel')]//ul/li[@class='greet welcome']/span to have value
+[ERROR] - [16-04-2025 15:39:53] [main] [Utils.Waits] - stale element reference: stale element not found in the current frame
+  (Session info: chrome=135.0.7049.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [530aff725b4c76a501ca163531115cc5, getElementText {id=f.88CA3B88F45B7901DC0336A62B1DC0BE.d.C96DD07A8EFB0808CBA7213AE50AE672.e.3022}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\Pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61283}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61283/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (530aff725b4c76a501ca163531115cc5)] -> xpath: //div[contains(@class,'panel')]//ul/li[@class='greet welcome']/span]
+Session ID: 530aff725b4c76a501ca163531115cc5
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[contains(@class,'panel')]//ul/li[@class='greet welcome']/span
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[contains(@class,'panel')]//ul/li[@class='greet welcome']/span
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[contains(@class,'panel')]//ul/li[@class='greet welcome']/span
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[contains(@class,'panel')]//ul/li[@class='greet welcome']/span Text is Welcome, Abdelrahman fahmy!
+[DEBUG] - [16-04-2025 15:39:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['successRegisterMessage']
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[@class='messages']/div/div
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[@class='messages']/div/div
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[@class='messages']/div/div
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[@class='messages']/div/div Text is Thank you for registering with Main Website Store.
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.AllureUtils] - Logs attached to allure report
+[INFO] - [16-04-2025 15:39:53] [main] [Listeners.TestNGListeners] - Test case validRegistrationTC passed
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //div[contains(@class,'header')]//ul[contains(@class,'header')]//button[@data-action='customer-menu-toggle']
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[contains(@class,'header')]//ul[contains(@class,'header')]//button[@data-action='customer-menu-toggle']
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[contains(@class,'header')]//ul[contains(@class,'header')]//button[@data-action='customer-menu-toggle']
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[contains(@class,'header')]//ul[contains(@class,'header')]//button[@data-action='customer-menu-toggle']
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[contains(@class,'header')]//ul[contains(@class,'header')]//button[@data-action='customer-menu-toggle']
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //header[@class='page-header']//div[@data-target='dropdown']//li[3]/a
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //header[@class='page-header']//div[@data-target='dropdown']//li[3]/a
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //header[@class='page-header']//div[@data-target='dropdown']//li[3]/a
+[INFO] - [16-04-2025 15:39:53] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //header[@class='page-header']//div[@data-target='dropdown']//li[3]/a
+[INFO] - [16-04-2025 15:39:55] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //header[@class='page-header']//div[@data-target='dropdown']//li[3]/a
+[INFO] - [16-04-2025 15:39:55] [main] [Pages.HomePage] - Clicked on logout link
+[DEBUG] - [16-04-2025 15:39:55] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['logoutMessage']
+[INFO] - [16-04-2025 15:39:55] [main] [Utils.Waits] - Waiting for element to be visible: By.cssSelector: .page-title > .base
+[INFO] - [16-04-2025 15:39:55] [main] [Utils.Waits] - Waiting for element to be present: By.cssSelector: .page-title > .base
+[INFO] - [16-04-2025 15:39:55] [main] [Utils.Scrolling] - Scrolling to element: By.cssSelector: .page-title > .base
+[INFO] - [16-04-2025 15:39:55] [main] [Utils.ElementActions] - Getting text from the element: By.cssSelector: .page-title > .base Text is You are signed out
+[INFO] - [16-04-2025 15:39:55] [main] [Utils.AllureUtils] - Logs attached to allure report
+[INFO] - [16-04-2025 15:39:55] [main] [Listeners.TestNGListeners] - Test case validUserLogout passed
+[INFO] - [16-04-2025 15:39:55] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //div[contains(@class,'panel')]//li[2]/a
+[INFO] - [16-04-2025 15:39:55] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[contains(@class,'panel')]//li[2]/a
+[INFO] - [16-04-2025 15:39:55] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[contains(@class,'panel')]//li[2]/a
+[INFO] - [16-04-2025 15:39:55] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[contains(@class,'panel')]//li[2]/a
+[INFO] - [16-04-2025 15:39:57] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[contains(@class,'panel')]//li[2]/a
+[INFO] - [16-04-2025 15:39:57] [main] [Pages.HomePage] - Navigation to login page
+[INFO] - [16-04-2025 15:39:57] [main] [Utils.BrowserActions] - Current url: https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9hY2NvdW50L2xvZ291dFN1Y2Nlc3Mv/
+[INFO] - [16-04-2025 15:39:57] [main] [Utils.Waits] - Waiting for element to be visible: By.id: email
+[INFO] - [16-04-2025 15:39:57] [main] [Utils.Waits] - Waiting for element to be present: By.id: email
+[INFO] - [16-04-2025 15:39:57] [main] [Utils.Scrolling] - Scrolling to element: By.id: email
+[INFO] - [16-04-2025 15:39:57] [main] [Utils.ElementActions] - Data entered: Abdelrahman-2025-04-16-15-39-39@gmail.com in the field: By.id: email
+[INFO] - [16-04-2025 15:39:57] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //fieldset//input[@type='password']
+[INFO] - [16-04-2025 15:39:57] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //fieldset//input[@type='password']
+[INFO] - [16-04-2025 15:39:57] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //fieldset//input[@type='password']
+[INFO] - [16-04-2025 15:39:57] [main] [Utils.ElementActions] - Data entered: Admin@123 in the field: By.xpath: //fieldset//input[@type='password']
+[INFO] - [16-04-2025 15:39:57] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //fieldset//button
+[INFO] - [16-04-2025 15:39:57] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //fieldset//button
+[INFO] - [16-04-2025 15:39:57] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //fieldset//button
+[INFO] - [16-04-2025 15:39:57] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //fieldset//button
+[INFO] - [16-04-2025 15:39:59] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //fieldset//button
+[INFO] - [16-04-2025 15:39:59] [main] [Utils.BrowserActions] - Current url: https://magento.softwaretestingboard.com/customer/account/
+[INFO] - [16-04-2025 15:39:59] [main] [Utils.Waits] - Waiting for the element By.xpath: //div[contains(@class,'panel')]//ul/li[@class='greet welcome']/span to have value
+[INFO] - [16-04-2025 15:40:00] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[contains(@class,'panel')]//ul/li[@class='greet welcome']/span
+[INFO] - [16-04-2025 15:40:00] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[contains(@class,'panel')]//ul/li[@class='greet welcome']/span
+[INFO] - [16-04-2025 15:40:00] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[contains(@class,'panel')]//ul/li[@class='greet welcome']/span
+[INFO] - [16-04-2025 15:40:00] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[contains(@class,'panel')]//ul/li[@class='greet welcome']/span Text is Welcome, Abdelrahman fahmy!
+[INFO] - [16-04-2025 15:40:01] [main] [Utils.AllureUtils] - Logs attached to allure report
+[INFO] - [16-04-2025 15:40:01] [main] [Listeners.TestNGListeners] - Test case validLoginTC passed
+[INFO] - [16-04-2025 15:40:01] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //span[text()='Men']//ancestor::li
+[INFO] - [16-04-2025 15:40:01] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //span[text()='Men']//ancestor::li
+[INFO] - [16-04-2025 15:40:01] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //span[text()='Men']//ancestor::li
+[INFO] - [16-04-2025 15:40:01] [main] [Utils.ElementActions] - Hovered over the element: By.xpath: //span[text()='Men']//ancestor::li
+[INFO] - [16-04-2025 15:40:01] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //span[text()='Men']//ancestor::li//li//span[text()='Tops']//parent::a//parent::li
+[INFO] - [16-04-2025 15:40:01] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //span[text()='Men']//ancestor::li//li//span[text()='Tops']//parent::a//parent::li
+[INFO] - [16-04-2025 15:40:01] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //span[text()='Men']//ancestor::li//li//span[text()='Tops']//parent::a//parent::li
+[INFO] - [16-04-2025 15:40:01] [main] [Utils.ElementActions] - Hovered over the element: By.xpath: //span[text()='Men']//ancestor::li//li//span[text()='Tops']//parent::a//parent::li
+[INFO] - [16-04-2025 15:40:01] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //span[text()='Men']//ancestor::li//li//span[text()='Tops']//parent::a//parent::li//ul//span[text()='Jackets']//parent::a
+[INFO] - [16-04-2025 15:40:01] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //span[text()='Men']//ancestor::li//li//span[text()='Tops']//parent::a//parent::li//ul//span[text()='Jackets']//parent::a
+[INFO] - [16-04-2025 15:40:01] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //span[text()='Men']//ancestor::li//li//span[text()='Tops']//parent::a//parent::li//ul//span[text()='Jackets']//parent::a
+[INFO] - [16-04-2025 15:40:03] [main] [Pages.HomePage] - Selected category is: Jackets
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Waits] - Waiting for element to be visible: By.cssSelector: ul.items > li:nth-of-type(2) > a
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Waits] - Waiting for element to be present: By.cssSelector: ul.items > li:nth-of-type(2) > a
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Scrolling] - Scrolling to element: By.cssSelector: ul.items > li:nth-of-type(2) > a
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.ElementActions] - Getting text from the element: By.cssSelector: ul.items > li:nth-of-type(2) > a Text is Men
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Waits] - Waiting for element to be visible: By.cssSelector: ul.items > li:nth-of-type(3) > a
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Waits] - Waiting for element to be present: By.cssSelector: ul.items > li:nth-of-type(3) > a
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Scrolling] - Scrolling to element: By.cssSelector: ul.items > li:nth-of-type(3) > a
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.ElementActions] - Getting text from the element: By.cssSelector: ul.items > li:nth-of-type(3) > a Text is Tops
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Waits] - Waiting for element to be visible: By.cssSelector: ul.items > li:nth-of-type(4) > strong
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Waits] - Waiting for element to be present: By.cssSelector: ul.items > li:nth-of-type(4) > strong
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Scrolling] - Scrolling to element: By.cssSelector: ul.items > li:nth-of-type(4) > strong
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.ElementActions] - Getting text from the element: By.cssSelector: ul.items > li:nth-of-type(4) > strong Text is Jackets
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Waits] - Waiting for element to be visible: By.cssSelector: #page-title-heading > span
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Waits] - Waiting for element to be present: By.cssSelector: #page-title-heading > span
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Scrolling] - Scrolling to element: By.cssSelector: #page-title-heading > span
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.ElementActions] - Getting text from the element: By.cssSelector: #page-title-heading > span Text is Jackets
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //div[text()[contains(., 'Size')]]/parent::div
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[text()[contains(., 'Size')]]/parent::div
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[text()[contains(., 'Size')]]/parent::div
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[text()[contains(., 'Size')]]/parent::div
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[text()[contains(., 'Size')]]/parent::div
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //div[text()[contains(., 'Size')]]/parent::div//a[@aria-label='M']//div
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[text()[contains(., 'Size')]]/parent::div//a[@aria-label='M']//div
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[text()[contains(., 'Size')]]/parent::div//a[@aria-label='M']//div
+[INFO] - [16-04-2025 15:40:03] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[text()[contains(., 'Size')]]/parent::div//a[@aria-label='M']//div
+[INFO] - [16-04-2025 15:40:05] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[text()[contains(., 'Size')]]/parent::div//a[@aria-label='M']//div
+[INFO] - [16-04-2025 15:40:05] [main] [Pages.ProductsPage] - Selected size is: M
+[INFO] - [16-04-2025 15:40:05] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //ol[contains(@class,'product-items')]//a[contains(text(),'Proteus Fitness Jackshirt')]
+[INFO] - [16-04-2025 15:40:05] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //ol[contains(@class,'product-items')]//a[contains(text(),'Proteus Fitness Jackshirt')]
+[INFO] - [16-04-2025 15:40:05] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //ol[contains(@class,'product-items')]//a[contains(text(),'Proteus Fitness Jackshirt')]
+[INFO] - [16-04-2025 15:40:05] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //ol[contains(@class,'product-items')]//a[contains(text(),'Proteus Fitness Jackshirt')]
+[INFO] - [16-04-2025 15:40:06] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //ol[contains(@class,'product-items')]//a[contains(text(),'Proteus Fitness Jackshirt')]
+[INFO] - [16-04-2025 15:40:06] [main] [Pages.ProductsPage] - Viewed the product: Proteus Fitness Jackshirt
+[INFO] - [16-04-2025 15:40:06] [main] [Utils.Waits] - Waiting for element to be visible: By.cssSelector: ul.items > li:nth-of-type(4) > a
+[INFO] - [16-04-2025 15:40:06] [main] [Utils.Waits] - Waiting for element to be present: By.cssSelector: ul.items > li:nth-of-type(4) > a
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Scrolling] - Scrolling to element: By.cssSelector: ul.items > li:nth-of-type(4) > a
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.ElementActions] - Getting text from the element: By.cssSelector: ul.items > li:nth-of-type(4) > a Text is Jackets
+[INFO] - [16-04-2025 15:40:07] [main] [Pages.ProductPage] - The product category is: Jackets
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.AllureUtils] - Logs attached to allure report
+[INFO] - [16-04-2025 15:40:07] [main] [Listeners.TestNGListeners] - Test case filterByCategoryAndSizeTC passed
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //span[@itemprop='name']
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //span[@itemprop='name']
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //span[@itemprop='name']
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //span[@itemprop='name'] Text is Proteus Fitness Jackshirt
+[INFO] - [16-04-2025 15:40:07] [main] [Pages.ProductPage] - The product name is: Proteus Fitness Jackshirt
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Waits] - Waiting for element to be visible: By.cssSelector: div.product-info-price .price-wrapper > span
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Waits] - Waiting for element to be present: By.cssSelector: div.product-info-price .price-wrapper > span
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Scrolling] - Scrolling to element: By.cssSelector: div.product-info-price .price-wrapper > span
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.ElementActions] - Getting text from the element: By.cssSelector: div.product-info-price .price-wrapper > span Text is $45.00
+[INFO] - [16-04-2025 15:40:07] [main] [Pages.ProductPage] - The product price is: 45.00
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //div[contains(@aria-labelledby,'size')]/div[text() = 'M']
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[contains(@aria-labelledby,'size')]/div[text() = 'M']
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[contains(@aria-labelledby,'size')]/div[text() = 'M']
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[contains(@aria-labelledby,'size')]/div[text() = 'M']
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[contains(@aria-labelledby,'size')]/div[text() = 'M']
+[INFO] - [16-04-2025 15:40:07] [main] [Pages.ProductPage] - Choosing the product size: M
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //div[contains(@aria-labelledby,'color')]/div[@aria-label='Blue']
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[contains(@aria-labelledby,'color')]/div[@aria-label='Blue']
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[contains(@aria-labelledby,'color')]/div[@aria-label='Blue']
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[contains(@aria-labelledby,'color')]/div[@aria-label='Blue']
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[contains(@aria-labelledby,'color')]/div[@aria-label='Blue']
+[INFO] - [16-04-2025 15:40:07] [main] [Pages.ProductPage] - Choosing the product color: Blue
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Waits] - Waiting for element to be visible: By.id: qty
+[INFO] - [16-04-2025 15:40:07] [main] [Utils.Waits] - Waiting for element to be present: By.id: qty
+[INFO] - [16-04-2025 15:40:08] [main] [Utils.Scrolling] - Scrolling to element: By.id: qty
+[INFO] - [16-04-2025 15:40:08] [main] [Utils.ElementActions] - Cleared data from the field: By.id: qty
+[INFO] - [16-04-2025 15:40:08] [main] [Utils.Waits] - Waiting for element to be visible: By.id: qty
+[INFO] - [16-04-2025 15:40:08] [main] [Utils.Waits] - Waiting for element to be present: By.id: qty
+[INFO] - [16-04-2025 15:40:08] [main] [Utils.Scrolling] - Scrolling to element: By.id: qty
+[INFO] - [16-04-2025 15:40:08] [main] [Utils.ElementActions] - Data entered: 3 in the field: By.id: qty
+[INFO] - [16-04-2025 15:40:08] [main] [Pages.ProductPage] - Entering the product quantity: 3
+[INFO] - [16-04-2025 15:40:08] [main] [Utils.Waits] - Waiting for element to be clickable: By.id: product-addtocart-button
+[INFO] - [16-04-2025 15:40:08] [main] [Utils.Waits] - Waiting for element to be visible: By.id: product-addtocart-button
+[INFO] - [16-04-2025 15:40:08] [main] [Utils.Waits] - Waiting for element to be present: By.id: product-addtocart-button
+[INFO] - [16-04-2025 15:40:08] [main] [Utils.Scrolling] - Scrolling to element: By.id: product-addtocart-button
+[INFO] - [16-04-2025 15:40:08] [main] [Utils.ElementActions] - Clicked on the element: By.id: product-addtocart-button
+[INFO] - [16-04-2025 15:40:08] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[@role='alert']/div/div
+[INFO] - [16-04-2025 15:40:08] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[@role='alert']/div/div
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[@role='alert']/div/div
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //div[@role='alert']/div/div Text is You added Proteus Fitness Jackshirt to your shopping cart.
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //span[@itemprop='name']
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //span[@itemprop='name']
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //span[@itemprop='name']
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //span[@itemprop='name'] Text is Proteus Fitness Jackshirt
+[INFO] - [16-04-2025 15:40:10] [main] [Pages.ProductPage] - The product name is: Proteus Fitness Jackshirt
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Waits] - Waiting for element to be visible: By.className: counter-number
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Waits] - Waiting for element to be present: By.className: counter-number
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Scrolling] - Scrolling to element: By.className: counter-number
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.ElementActions] - Getting text from the element: By.className: counter-number Text is 3
+[INFO] - [16-04-2025 15:40:10] [main] [Pages.ProductPage] - The cart counter is: 3
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //div[@class='minicart-wrapper']/a
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[@class='minicart-wrapper']/a
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[@class='minicart-wrapper']/a
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[@class='minicart-wrapper']/a
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[@class='minicart-wrapper']/a
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Waits] - Waiting for element to be clickable: By.xpath: //div[@id = 'minicart-content-wrapper']//div[@class = 'actions'][2]//a
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //div[@id = 'minicart-content-wrapper']//div[@class = 'actions'][2]//a
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //div[@id = 'minicart-content-wrapper']//div[@class = 'actions'][2]//a
+[INFO] - [16-04-2025 15:40:10] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //div[@id = 'minicart-content-wrapper']//div[@class = 'actions'][2]//a
+[INFO] - [16-04-2025 15:40:14] [main] [Utils.ElementActions] - Clicked on the element: By.xpath: //div[@id = 'minicart-content-wrapper']//div[@class = 'actions'][2]//a
+[INFO] - [16-04-2025 15:40:14] [main] [Pages.ProductPage] - Navigation to cart page
+[INFO] - [16-04-2025 15:40:14] [main] [Utils.BrowserActions] - Current url: https://magento.softwaretestingboard.com/checkout/cart/
+[INFO] - [16-04-2025 15:40:14] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //table[@id='shopping-cart-table']//tbody
+[INFO] - [16-04-2025 15:40:14] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //table[@id='shopping-cart-table']//tbody
+[INFO] - [16-04-2025 15:40:14] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //table[@id='shopping-cart-table']//tbody
+[INFO] - [16-04-2025 15:40:14] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //table[@id='shopping-cart-table']//tbody
+[INFO] - [16-04-2025 15:40:14] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //table[@id='shopping-cart-table']//tbody
+[INFO] - [16-04-2025 15:40:14] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //table[@id='shopping-cart-table']//tbody
+[INFO] - [16-04-2025 15:40:14] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //tr[contains(@class,'totals')]//span[@data-th='Subtotal']
+[INFO] - [16-04-2025 15:40:14] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //tr[contains(@class,'totals')]//span[@data-th='Subtotal']
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //tr[contains(@class,'totals')]//span[@data-th='Subtotal']
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //tr[contains(@class,'totals')]//span[@data-th='Subtotal'] Text is $135.00
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //tr[contains(@class,'grand')]//span
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //tr[contains(@class,'grand')]//span
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //tr[contains(@class,'grand')]//span
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //tr[contains(@class,'grand')]//span Text is $135.00
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //tr[contains(@class,'totals')]//span[@data-th='Subtotal']
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //tr[contains(@class,'totals')]//span[@data-th='Subtotal']
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //tr[contains(@class,'totals')]//span[@data-th='Subtotal']
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //tr[contains(@class,'totals')]//span[@data-th='Subtotal'] Text is $135.00
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //tr[@class='totals-tax']//span
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.Waits] - Waiting for element to be visible: By.xpath: //tr[@class='totals-tax']//span
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.Waits] - Waiting for element to be present: By.xpath: //tr[@class='totals-tax']//span
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.Scrolling] - Scrolling to element: By.xpath: //tr[@class='totals-tax']//span
+[INFO] - [16-04-2025 15:40:15] [main] [Utils.ElementActions] - Getting text from the element: By.xpath: //tr[@class='totals-tax']//span Text is $0.00

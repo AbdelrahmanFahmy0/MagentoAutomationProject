@@ -1,0 +1,23 @@
+{
+  "products": [
+    {
+      "name": "Proteus Fitness Jackshirt",
+      "price": "45.00",
+      "quantity": "3",
+      "size": "M",
+      "color": "Blue"
+    },
+    {
+      "name": "Montana Wind Jacket",
+      "price": "49.00",
+      "quantity": "3",
+      "size": "M",
+      "color": "Black"
+    }
+  ],
+  "messages": {
+    "requiredFieldMessage": "This is a required field.",
+    "invalidQuantityMessage": "Please enter a quantity greater than 0.",
+    "invalidNumberMessage": "Please enter a valid number in this field."
+  }
+}

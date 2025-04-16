@@ -1,0 +1,13 @@
+{
+  "category": {
+    "mainCategory": "Men",
+    "subCategory": "Tops",
+    "targetCategory": "Jackets"
+  },
+  "style": "Hooded",
+  "size": "M",
+  "price": {
+    "lowPrice": "40.00",
+    "highPrice": "49.99"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "user": {
+    "firstName": "Abdelrahman",
+    "lastName": "fahmy",
+    "country": "Egypt",
+    "country2": "United States",
+    "state": "California"
+  },
+  "shippingMethod": {
+    "method": "Flat Rate - Fixed",
+    "price": "15.00"
+  },
+  "messages": {
+    "emptyFieldMessage": "This is a required field.",
+    "orderConfirmationMessage": "Thank you for your purchase!",
+    "emptyShippingMethodMessage": "The shipping method is missing. Select the shipping method and try again."
+  }
+}

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WishlistSuite">
+    <test name="WishlistTest">
+        <classes>
+            <class name="Tests.WishListTest"/>
+        </classes>
+    </test>
+</suite>

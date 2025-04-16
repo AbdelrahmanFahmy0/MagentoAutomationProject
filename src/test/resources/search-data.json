@@ -1,0 +1,9 @@
+{
+  "product": {
+    "Existent": "Hoodie",
+    "nonExistent": "carpet"
+  },
+  "message": {
+    "nonExistentMessage": "Your search returned no results."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "messages": {
+    "emptyCartMessage": "You have no items in your shopping cart.",
+    "noOptionsMessage": "You need to choose options for your item.",
+    "cleanCartMessage": "You have no items in your shopping cart."
+  }
+}
